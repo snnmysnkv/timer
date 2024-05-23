@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./download.gif);
+}
+.times{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.buttons button{
+    border: none;
+    background-color: rgb(67, 192, 0);
+    font-size: 3rem;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    color: rgba(255, 0, 0, 0.526);
+    box-shadow: 10px 9px 24px -6px rgba(0,0,0,0.45);
+   -webkit-box-shadow: 10px 9px 24px -6px rgba(0,0,0,0.45);
+   -moz-box-shadow: 10px 9px 24px -6px rgba(0,0,0,0.45);
+}
+.buttons button:hover{
+    background-color:rgb(14, 125, 45) ;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+.times div span{
+    font-size: 12rem;
+    color: rgb(255, 0, 0);
+}
